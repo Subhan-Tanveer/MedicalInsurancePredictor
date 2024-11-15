@@ -15,7 +15,7 @@ def insurance_prediction(input_data):
 # Main function to create the app
 def main():
     # Set page configuration
-    st.set_page_config(page_title="Insurance Cost Predictor", layout="centered", initial_sidebar_state="expanded")
+    st.set_page_config(page_title="Insurance Cost Predictor",page_icon="💻" layout="centered", initial_sidebar_state="expanded")
 
     # Custom CSS for background and styling
     st.markdown(
