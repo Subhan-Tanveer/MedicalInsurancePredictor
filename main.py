@@ -33,8 +33,7 @@ def main():
     )
 
     # Page container with custom style
-    with st.container():
-        st.markdown('<div class="main">', unsafe_allow_html=True)
+   
 
         # Page title
         st.title("💻 Medical Insurance Cost Predictor")
