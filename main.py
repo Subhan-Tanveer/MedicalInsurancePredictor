@@ -3,7 +3,7 @@ import numpy as np
 import streamlit as st
 
 # Load the trained model
-loaded_model = pickle.load(open('trained_insurance.pkl', 'rb'))
+loaded_model = pickle.load(open('D:/AI Regression Projects/Medical Insurance Predictior/trained_insurance.pkl', 'rb'))
 
 # Define the prediction function
 def insurance_prediction(input_data):
@@ -33,9 +33,8 @@ def main():
     )
 
     # Page container with custom style
-
-     with st.container():
-        st.markdown('<div class="main">', unsafe_allow_html=True)
+    with st.container():
+        st.markdown('<div class="main2">', unsafe_allow_html=True)
 
         # Page title
         st.title("💻 Medical Insurance Cost Predictor")
