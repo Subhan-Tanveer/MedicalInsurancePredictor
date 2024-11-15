@@ -5,7 +5,7 @@ import sklearn
 import streamlit as st
 
 
-loaded_model = pickle.load(open('D:/AI Regression Projects/Medical Insurance Predictior/trained_insurance.pkl', 'rb'))
+loaded_model = pickle.load(open('trained_insurance.pkl', 'rb'))
 
 
 
@@ -19,20 +19,6 @@ def insurance_prediction(input_data):
 
 
 
-def main():
-    import pickle
-import numpy as np
-import streamlit as st
-
-# Load the trained model
-loaded_model = pickle.load(open('D:/AI Regression Projects/Medical Insurance Predictior/trained_insurance.pkl', 'rb'))
-
-# Define the prediction function
-def insurance_prediction(input_data):
-    input_data_as_numpy_array = np.asarray(input_data)
-    input_data_reshaped = input_data_as_numpy_array.reshape(1, -1)
-    prediction = loaded_model.predict(input_data_reshaped)
-    return prediction[0]
 
 # Main function to create the app
 def main():
