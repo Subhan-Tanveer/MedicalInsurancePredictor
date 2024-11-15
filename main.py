@@ -37,7 +37,7 @@ def main():
         st.markdown('<div class="main2">', unsafe_allow_html=True)
 
         # Page title
-        st.title("💻 Medical Insurance Cost Predictor")
+        st.title("Medical Insurance Cost Predictor 💻")
         st.subheader("📊 Predict your insurance cost based on key factors.")
 
         # Sidebar for user instructions
